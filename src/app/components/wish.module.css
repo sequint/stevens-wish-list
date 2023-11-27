@@ -1,11 +1,20 @@
 .wishCardContainer {
-  height: 200px;
-  width: 200px;
-  border: black 5px solid;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   margin: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.wishCardContainer:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px green;
+}
+
+.wishCardImg {
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.wishCardText {
+  margin: 10px;
 }

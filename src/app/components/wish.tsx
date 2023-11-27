@@ -7,15 +7,15 @@ export default function Wish(props: WishProps) {
 
   return (
     <>
-      <div className={styles.wishCardContainer}>
+      <div className={ styles.wishCardContainer }>
         <Image
+        className={ styles.wishCardImg }
           src={ image }
-          width={ 100 }
-          height={ 100 }
+          width={ 200 }
+          height={ 200 }
           alt='Wish Item'
         />
-        <p>{ title }</p>
-        <p>{ url }</p>
+        <p className={ styles.wishCardText }>{ title }</p>
       </div>
     </>
   )
