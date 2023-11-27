@@ -24,9 +24,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Title></Title>
-      <>
+      <div className={styles.wishes}>
         { displayAllWishes() }
-      </>
+      </div>
     </main>
   )
 }

@@ -6,8 +6,7 @@ export default function Wish(props: any) {
   return (
     <>
       <div className={styles.wishCardContainer}>
-        Hi
-        <h4>{ title }</h4>
+        <p>{ title }</p>
         <h6>{ url }</h6>
       </div>
     </>
