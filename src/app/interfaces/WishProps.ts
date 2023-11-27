@@ -1,4 +1,7 @@
+import { StaticImageData } from "next/image";
+
 export interface WishProps {
-  title: String,
-  url: String
+  title: string,
+  url: string,
+  image: StaticImageData
 }
