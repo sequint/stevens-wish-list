@@ -1,9 +1,11 @@
 import { Fragment } from 'react'
+import {
+  zToOneImg, 
+  engAtGoogImg
+} from './images'
 import Title from './components/title'
 import Wish from './components/wish'
 import styles from './page.module.css'
-import zToOneImg from './images/Zto1.png'
-import engAtGoogImg from './images/EngAtGoog.png'
 
 const wishes = [
   { id: 1, title: 'Book 1', url: 'sample', image: zToOneImg },
