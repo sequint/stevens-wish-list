@@ -1,7 +1,8 @@
+import { WishProps } from '../interfaces/WishProps'
 import styles from './wish.module.css'
 
-export default function Wish(props: any) {
-  const { title, url } : {title: string, url: string} = props
+export default function Wish(props: WishProps) {
+  const { title, url } = props
 
   return (
     <>

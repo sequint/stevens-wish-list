@@ -17,7 +17,7 @@ export default function Home() {
           title={wish.title}
           url={wish.url}
         />
-      </Fragment>  
+      </Fragment>
     )
   }
 
