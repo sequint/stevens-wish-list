@@ -1,7 +1,9 @@
 import { Fragment } from 'react'
+import Image from 'next/image'
 import Title from './components/title'
 import Wish from './components/wish'
 import { wishesData } from './data/wishes'
+import christmasVillageImg from './images/christmasBkgd.png'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -24,6 +26,11 @@ export default function Home() {
       <div className={styles.wishes}>
         { displayAllWishes() }
       </div>
+      <Image
+        className={ styles.villageImg }
+        src={ christmasVillageImg }
+        alt='Christmas Village'
+      />
     </main>
   )
 }

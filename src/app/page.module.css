@@ -8,3 +8,11 @@
 .wishes {
   display: inline-flex;
 }
+
+.villageImg {
+  position: fixed;
+  z-index: -1;
+  width: 100dvw;
+  height: 70dvh;
+  bottom: 0px;
+}
