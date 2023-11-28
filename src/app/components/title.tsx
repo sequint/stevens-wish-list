@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import { mountainsOfChristmas } from '../utils/fonts'
 import styles from './title.module.css'
 
 export default function Title() {
@@ -22,7 +23,12 @@ export default function Title() {
 
     return titleArr.map(char =>
       <Fragment key={charId}>
-        <span style={{ color: getCurrentColor()}}>{ char }</span>
+        <span
+          className={ mountainsOfChristmas.className }
+          style={{ color: getCurrentColor()}}
+        >
+          { char }
+        </span>
       </Fragment>
     )
   }
