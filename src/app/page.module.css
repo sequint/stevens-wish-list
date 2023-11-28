@@ -6,7 +6,9 @@
 }
 
 .wishes {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .villageImg {
@@ -15,4 +17,15 @@
   width: 100dvw;
   height: 70dvh;
   bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .wishes {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 210px;
+  }
+  .villageImg {
+    height: 40dvh;
+  }
 }
