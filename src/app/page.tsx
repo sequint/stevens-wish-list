@@ -1,9 +1,10 @@
 import { Fragment } from 'react'
 import Image from 'next/image'
+import Snowfall from './components/snowfall'
 import Title from './components/title'
 import Wish from './components/wish'
+import christmasBG from './images/christmasBG.png'
 import { wishesData } from './data/wishes'
-import christmasVillageImg from './images/christmasBkgd.png'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -21,16 +22,17 @@ export default function Home() {
   }
 
   return (
-    <main className={styles.main}>
-      <Title></Title>
-      <div className={styles.wishes}>
+    <main className={ styles.main }>
+      <Image
+      className={ styles.background }
+      src={ christmasBG }
+      alt='Christmas Sky'
+      />
+      <Snowfall />
+      <Title />
+      <div className={ styles.wishes }>
         { displayAllWishes() }
       </div>
-      <Image
-        className={ styles.villageImg }
-        src={ christmasVillageImg }
-        alt='Christmas Village'
-      />
     </main>
   )
 }

@@ -11,11 +11,11 @@
   justify-content: space-evenly;
 }
 
-.villageImg {
+.background {
   position: fixed;
   z-index: -1;
   width: 100dvw;
-  height: 70dvh;
+  height: 100dvh;
   bottom: 0px;
 }
 
@@ -23,7 +23,6 @@
   .wishes {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 210px;
   }
   .villageImg {
     height: 40dvh;
