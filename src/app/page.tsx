@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Snowfall from './components/snowfall'
 import Title from './components/title'
 import Wish from './components/wish'
+/* Source: https://pajasevi.github.io/CSSnowflakes/img/background.png */
 import christmasBG from './images/christmasBG.png'
 import { wishesData } from './data/wishes'
 import styles from './page.module.css'
