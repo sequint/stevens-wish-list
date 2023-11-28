@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
 
 .pageTitle {
-  font-size: 60px;
+  font-size: 100px;
   font-family: 'Mountains of Christmas', serif;
+  margin: 10px;
 }
 
 @media screen and (max-width: 600px) {
