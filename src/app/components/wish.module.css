@@ -5,6 +5,7 @@
   border-radius: 5px;
   box-shadow: 1px 1px 3px grey;
   text-decoration: none;
+  background-color: rgba(245, 245, 245, 0.595);
 }
 
 .wishCardContainer:hover {
